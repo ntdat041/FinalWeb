@@ -1,0 +1,107 @@
+.profile h1{
+  color: black;
+  font-weight: 700;
+}
+.profile .right_area.col-md-6 h3{
+  color: black;
+  font-weight: 700;
+}
+.profile .avatar_area {
+  text-align: center;
+}
+.profile .avatar_image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid gray;
+  border-radius: 10px;
+}
+
+.profile .social_list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  padding: 0px;
+}
+.profile .social_list .Icon {
+  font-size: 30px !important;
+}
+
+.profile .left_area h4 {
+  color: red;
+  width: 100%;
+}
+.profile .left_area form {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  color: black;
+  background-color: black;
+  height: 3px;
+}
+
+table .infor{
+  color: tomato;
+}
+.profile .table.profile-detail.table-condensed.table-hover{
+  height: 270px;
+  border: 1px solid #a6a6a6;
+  
+}
+.profile .form-group label {
+  color:black;
+}
+.profile .form-control{
+  color: black;
+  border: 1px solid #a6a6a6;
+  background-color: white;
+}
+.profile .form-control:focus{
+  border: 2px solid orange;
+  box-shadow: 1px 1px 5px 1px orange;
+}
+.profile .btn.btn-primary{
+  background: #f0c14b;
+  border-radius: 3px;
+  margin-top: 20px;
+  color: #111;
+  width: 120px;
+  font-weight: 500;
+  transition: ease-out 0.3s;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  box-shadow: inset 0 0 0 0 #ff4655;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.profile .btn.btn-primary:hover{
+  box-shadow: inset 120px 0 0 0 #ff4655;
+  color: white;
+}
+.profile .btn.btn-default{
+  background: #f0c14b;
+  border-radius: 3px;
+  margin-top: 20px;
+  color: #111;
+  width: 120px;
+  font-weight: 500;
+  transition: ease-out 0.3s;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  box-shadow: inset 0 0 0 0 #ff4655;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.profile .btn.btn-default:hover{
+  box-shadow: inset 120px 0 0 0 #ff4655;
+  color: white;
+}
+

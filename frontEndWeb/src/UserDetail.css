@@ -1,0 +1,46 @@
+
+.userDetail .orderdetail_img{
+    max-width: 130px;
+    max-height: 100px;
+}
+.userDetail .id{
+    width: 90px;
+}
+.userDetail .name{
+    width: 150px;
+}
+.userDetail .quantity{
+    width: 70px;
+}
+.userDetail .price{
+    width: 130px;
+    color: rgb(214, 7, 7);
+}
+.userDetail .date{
+    width: 100px;
+}
+.userDetail .status{
+    width: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(10, 114, 161);
+}
+.userDetail button{
+    background: #f0c14b;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #111;
+    height: 30px;
+    width: 130px;
+    font-weight: 500;
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 0 #ff4655;
+}
+.userDetail button:hover{
+    box-shadow: inset 0 30px 0 0 #ff4655;
+}
+
+

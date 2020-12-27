@@ -1,0 +1,91 @@
+.ProductInOrderDeTail .product_img {
+  max-width: 250px;
+  max-height: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
+.ProductInOrderDeTail .row{
+  width: 350px;
+  height: 200px;
+}
+.ProductInOrderDeTail td{
+  width: 100px;
+}
+.ProductInOrderDeTail .quantity{
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+.ProductInOrderDeTail .rating{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+}
+.ProductInOrderDeTail .status{
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+}
+.ProductInOrderDeTail .my-rate{
+  text-align: center;
+  vertical-align: middle;
+}
+.ProductInOrderDeTail .my-rate button{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.ProductInOrderDeTail .submit{
+  text-align: center;
+  vertical-align: middle;
+}
+.ProductInOrderDeTail .submit button{
+  background: #f0c14b;
+  border-radius: 3px;
+  margin-top: 20px;
+  color: #111;
+  height: 35px;
+  width: 80px;
+  font-weight: 500;
+  transition: ease-out 0.3s;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  box-shadow: inset 0 0 0 0 #ff4655;
+
+}
+.ProductInOrderDeTail .submit button:hover{
+  box-shadow: inset 80px 0 0 0 #ff4655;
+  color: white;
+}
+.ProductInOrderDeTail .submit button:active{
+  background-color: #ff4655;
+  box-shadow: 0 2px rgb(151, 149, 149);
+  transform: translateY(3px);
+}
+.ProductInOrderDeTail .tm-product-name {
+  width: 250px;
+  color: #0F1111;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.ProductInOrderDeTail .price{
+  width: 130px;
+  font-size: 16px;
+  color: rgb(214, 7, 7);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center;
+  vertical-align: middle;
+}

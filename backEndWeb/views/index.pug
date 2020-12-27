@@ -1,0 +1,10 @@
+extends layout
+
+block body
+  body
+    h1= title
+    p Name #{product.product_name}
+    p Id #{product.product_id}
+    p Price #{product.product_price}
+    p Image link #{product.product_image}
+    img(src = product.product_image)

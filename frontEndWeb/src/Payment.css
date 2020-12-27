@@ -1,0 +1,91 @@
+.payment {
+    background-color: white;
+}
+
+.payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+  }
+
+.payment__container > h1 a {
+    text-decoration: none;
+}
+
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+    flex: 0.2;
+}
+.payment__title h3{
+  width: 255.59px;
+}
+.payment__address, .payment__items, .payment__details {
+    flex: 0.8;
+}
+  
+.payment__details > form {
+    max-width: 400px;
+  }
+
+  .payment__details > h3 {
+    padding-bottom: 20px;
+  }
+
+
+  .payment__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+  }
+.payment .form-control{
+    color: black;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+.payment .form-control:focus{
+  border: 1px solid orange;
+  box-shadow: 1px 1px 5px 1px orange;
+}
+.payment .form-horizontal button{
+    background: #f0c14b;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #111;
+    height: 40px;
+    width: 200px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    transition: ease-out 0.3s;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 #ff4655;
+}
+.payment .form-horizontal button:hover{
+  box-shadow: inset 0 0 100px 0 #ff4655;
+  color: white;
+}
+.payment .payment__address select{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+.payment strong{
+  color: rgb(214, 7, 7);
+}

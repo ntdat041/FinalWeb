@@ -1,0 +1,21 @@
+.category_group{
+    display: flex;
+}
+.category_item{
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid gray;
+    text-align: center;
+    height: 120px;
+    width: 130px;
+}
+.category_item:hover{
+    border: 1px solid black;
+    color: black;
+}
+.category_image{
+    height: 50px;
+    width:  50px;
+     object-fit: cover;
+    border-radius: 50%;
+}

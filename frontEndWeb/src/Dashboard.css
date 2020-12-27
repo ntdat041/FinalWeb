@@ -1,0 +1,53 @@
+.div_table{
+    
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 100px;
+    justify-content: center; 
+    align-content: center;
+    
+}
+.dashboard__table{
+    border: 1px solid black;
+    width: 100%;
+    width: 300px;
+    
+}
+.dashboard__table thead  tr th {
+    text-align: left;
+    padding-left: 15px;
+    color:white;
+    text-align: center;
+    font-size: large;
+    
+    
+}
+.dashboard__table tbody tr td{
+    height: 90px;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    width: inherit;
+    
+}
+.dashboard__table tfoot tr td{
+text-align: center;
+}
+.column_none{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.table > thead{
+    width: 100px;
+}
+.dashboard .table-responsive th{
+    text-align: center;
+}
+.dashboard .table-responsive td{
+    text-transform: capitalize;
+    text-align: center;
+}
+.dashboard .tienanhTotal{
+    color: rgb(214, 7, 7);
+}

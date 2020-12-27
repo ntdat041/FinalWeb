@@ -1,0 +1,11 @@
+.checkmail {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/themeLogin.jpg");
+  object-fit: cover;
+  color: black;
+  font-size: 30px;
+}
